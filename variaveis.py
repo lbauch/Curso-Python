@@ -9,3 +9,4 @@ maior_de_idade = 22>18
 print(maior_de_idade)
 
 print(int(7.7+10))
+

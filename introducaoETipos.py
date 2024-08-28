@@ -28,6 +28,8 @@ print(type(10==11))
 print(1+1)
 print("1" + "1")
 
+
+#Valores Falsy - Não são o boolean false, mas são interpretados como False
 print(int('7')+7)
 print(float(7)+5)
 print(bool())

@@ -11,3 +11,6 @@ print(10//2.2)
 print(10/2.2)
 
 print(17 % 8 == 1)
+
+if(1 and 1):
+    print(True and 1 and False)
