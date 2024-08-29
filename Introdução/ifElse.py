@@ -23,7 +23,7 @@ if(str1 == str2):
 else:
     print(False)
 
-#Operadores em PYTHON são os mesmos de JAVA <, <=, >, >=, ==, !=, ...
+# Operadores em PYTHON são os mesmos de JAVA <, <=, >, >=, ==, !=, ...
 
 primValor = input('Digite um valor:\n')
 segValor = input('Digite outro valor:\n')
@@ -36,8 +36,10 @@ else:
     print(False)
 
 
-#IF COM AND
-if (1 == 1 and 10 == 10) or 5 == 'abcde':
+# IF COM AND
+# A BARRA INVERTIDA DEFINE QUE POSSUI CONTINUAÇÃO NA LINHA ABAIXO
+if (1 == 1 and 10 == 10) \
+    or 5 == 'abcde':
     print(True)
 else:
     print(False)
@@ -47,6 +49,6 @@ senha = input("Senha: ")
 if senha != '1234':
     print('Senha Incorreta')
 
-#Valida se a senha está nula - se o valor é falsy
+# Valida se a senha está nula - se o valor é falsy
 if not senha:   
     print('Senha não pode estar em branco')
