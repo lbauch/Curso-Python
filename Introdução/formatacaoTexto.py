@@ -95,3 +95,9 @@ print(f'{1000.4587535:0=+10,.1f}')
 
 #Para hexadecimal:
 print(f'o hexadecimal de 1500 é {1500:08X}')
+
+#CAPITALIZE - Torna a primeira letra da string Maiúscula
+print(nome.capitalize())
+#CASE das letras
+print(nome.lower())
+print(nome.upper())

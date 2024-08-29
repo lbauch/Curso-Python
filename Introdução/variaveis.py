@@ -26,18 +26,25 @@ var5 = 'a'
 print(id(var5))
 print(id(var4))
 
-#FLAGS - variáveis de apoio para saber se algo foi validado. EXEMPLO:
+# FLAGS - variáveis de apoio para saber se algo foi validado. EXEMPLO:
 condicao = False
 passouIf = None
 
-#IS e IS NOT - usado para tipo, valor ou identidade; NONE - caso não tenha valor
+# IS e IS NOT - usado para tipo, valor ou identidade; NONE - caso não tenha valor
 if condicao:
     passouIf = True
     print('Passou no if')
 else:
     print('Não passou')
 print(passouIf, passouIf is None)
-#Também pode ser utilizado como print(passouIf, passouIf == None)
+# Também pode ser utilizado como print(passouIf, passouIf == None)
 print(passouIf, passouIf is not None)
-#Também pode ser utilizado como print(passouIf, passouIf != None)
+# Também pode ser utilizado como print(passouIf, passouIf != None)
+# EM PYTHON, AS VARIÁVEIS SÃO IMUTÁVEIS - Não podem ser alteradas diretamente,
+# somente se for atribuído um novo valor
 
+# Atribuindo novo valor
+texto = 'ABC'
+texto = 'DEF'
+#Não é possível fazer: - Imutável
+# texto[2] = 't'
