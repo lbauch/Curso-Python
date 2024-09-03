@@ -51,3 +51,5 @@ while True:
 
 for letra in txt:
     print(letra)
+
+# Também possui as mesmas funções que o While (else, continue, break, ...)
