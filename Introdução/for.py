@@ -34,13 +34,10 @@ txt = iter('Lucas')
 print(txt.__next__())
 print(txt.__next__())
 print(txt.__next__())
-print(txt.__next__())
 
 #também pode ser feito da seguinte forma:
-print(next(texto))
-print(next(texto))
-print(next(texto))
-print(next(texto))
+print(next(txt))
+print(next(txt))
 
 while True:
     try:
@@ -53,3 +50,17 @@ for letra in txt:
     print(letra)
 
 # Também possui as mesmas funções que o While (else, continue, break, ...)
+
+lista = ['A', 'B', 'C']
+for letra1 in lista:
+    print(letra1, type(letra1))
+
+#
+#
+# PARA PEGAR O ÍNDICE DA LISTA NO FOR:
+#
+#
+indices = range(len(lista))
+for indice in indices:
+    print(indice)
+
