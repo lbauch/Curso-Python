@@ -24,8 +24,12 @@ while s != 's':
                 dado = int(input('Qual índice deseja apagar?\n'))
                 print(f'Valor excluído: {lista[dado]}')
                 del lista[dado]
-            except:
-                print('Não foi possível encontrar este índice')
+            except ValueError:
+                print('Índice deve ser um nº inteiro')
+            except IndexError:
+                print('Índice não encontrado')
+            except Exception:
+                print('Erro desconhecido')
     elif s == 'l':
         if len(lista) == 0:
             print('Nada para listar')
