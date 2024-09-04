@@ -35,4 +35,5 @@ while s != 's':
     elif s != 's':
         print('valor não reconhecido')
     s = input('Selecione uma opção\n[i]nserir [a]pagar [l]istar [s]air\n')
+    os.system('cls')
 
